@@ -1,0 +1,140 @@
+body{
+    background-image: url('Notepad_15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    header{
+    background-color: black;
+    text-align: center;
+    padding: 2px ;
+    
+    
+    
+}
+header h1{
+    color: aliceblue;
+}
+header nav ul{
+    padding: 20px;
+    justify-content: center;
+   
+}
+header nav ul li{
+    color: sandybrown;
+    display: inline;
+    padding: 40px;
+}
+
+header nav ul li a{
+    color: sandybrown;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+header nav ul li a:hover{
+    color: white;    
+}
+
+
+#Home h2{
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+#Home img{
+    height: 200px ;
+    width: 200px;
+    text-align: centre;
+    margin-left: 630px ;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+#Home:hover img {
+    transform: scale(1.2);
+  }
+    
+#Bio h2{
+    text-align: center;
+}
+    
+#Bio pre{
+    text-align: center;
+}
+
+#Portfolio h2{
+    text-align: center;
+    
+}
+#Portfolio p{
+    text-align: center;
+    
+}
+#Portfolio pre {
+    text-align: center;
+    background-color:lightgray;
+    padding: 20px;
+    transform: skew(-3deg);
+}
+
+#Skills{
+    text-align: center;
+    
+}
+
+
+#Skills ul {
+    list-style: none; 
+  }
+#Skills ul li progress{
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 10px 0; 
+    width: 500px;
+}
+
+
+#Contact{
+    background-color: black;
+    text-align: center;
+}
+#Contact h3{
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#Contact h4{
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+#Contact a{
+    color: sandybrown;
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+    
+    
+}
+#Contact p{
+    color: sandybrown;
+    display: inline-block;
+  
+    
+}
+
+#Contact p img{
+    text-align: center;
+    
+ 
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+    background-color:gray;
+    color: white;
+    margin-top: 20px;
+}
